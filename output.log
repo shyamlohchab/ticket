@@ -1,0 +1,65 @@
+########  ####  ######   ######   #######  ########  ########  
+##     ##  ##  ##    ## ##    ## ##     ## ##     ## ##     ## 
+##     ##  ##  ##       ##       ##     ## ##     ## ##     ## 
+##     ##  ##   ######  ##       ##     ## ########  ##     ## 
+##     ##  ##        ## ##       ##     ## ##   ##   ##     ## 
+##     ##  ##  ##    ## ##    ## ##     ## ##    ##  ##     ## 
+########  ####  ######   ######   #######  ##     ## ########  
+
+######## ####  ######  ##    ## ######## ########  ######  
+   ##     ##  ##    ## ##   ##  ##          ##    ##    ## 
+   ##     ##  ##       ##  ##   ##          ##    ##       
+   ##     ##  ##       #####    ######      ##     ######  
+   ##     ##  ##       ##  ##   ##          ##          ## 
+   ##     ##  ##    ## ##   ##  ##          ##    ##    ## 
+   ##    ####  ######  ##    ## ########    ##     ######  
+
+Discord Tickets (​https://discordtickets.app​) bot v4.0.49 by eartharoid
+Sponsor this project at https://discordtickets.app/sponsor
+
+
+ 2026-02-28 19:00:38  [INFO] 0 guilds are banned
+ 2026-02-28 19:00:39  [INFO] (AUTOCOMPLETE) Loaded "category" autocompleter
+ 2026-02-28 19:00:39  [INFO] (AUTOCOMPLETE) Loaded "references" autocompleter
+ 2026-02-28 19:00:39  [INFO] (AUTOCOMPLETE) Loaded "tag" autocompleter
+ 2026-02-28 19:00:39  [INFO] (AUTOCOMPLETE) Loaded "ticket" autocompleter
+ 2026-02-28 19:00:39  [INFO] (BUTTONS) Loaded "claim" button
+ 2026-02-28 19:00:39  [INFO] (BUTTONS) Loaded "close" button
+ 2026-02-28 19:00:39  [INFO] (BUTTONS) Loaded "create" button
+ 2026-02-28 19:00:39  [INFO] (BUTTONS) Loaded "edit" button
+ 2026-02-28 19:00:39  [INFO] (BUTTONS) Loaded "transcript" button
+ 2026-02-28 19:00:39  [INFO] (BUTTONS) Loaded "unclaim" button
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "Create ticket from message" message command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "Pin message" message command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "add" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "claim" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "close" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "force-close" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "help" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "move" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "new" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "priority" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "release" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "remove" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "rename" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "tag" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "tickets" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "topic" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "transcript" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "transfer" slash command
+ 2026-02-28 19:00:39  [INFO] (COMMANDS) Loaded "Create ticket for user" user command
+ 2026-02-28 19:00:39  [INFO] (MENUS) Loaded "create" menu
+ 2026-02-28 19:00:39  [INFO] (MODALS) Loaded "feedback" modal
+ 2026-02-28 19:00:39  [INFO] (MODALS) Loaded "questions" modal
+ 2026-02-28 19:00:39  [INFO] (MODALS) Loaded "topic" modal
+Login failed: Error: @prisma/client did not initialize yet. Please run "prisma generate" and try to import it again.
+    at new PrismaClient (C:\Users\s\Desktop\Discord-Tickets-Bot\node_modules\.prisma\client\default.js:43:11)
+    at Client.login (C:\Users\s\Desktop\Discord-Tickets-Bot\src\client.js:128:17)
+    at Object.<anonymous> (C:\Users\s\Desktop\Discord-Tickets-Bot\src\index.js:110:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)

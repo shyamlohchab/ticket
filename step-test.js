@@ -1,0 +1,17 @@
+console.log('1. Loading package.json');
+const pkg = require('./package.json');
+console.log('2. Loading banner');
+const banner = require('./src/lib/banner');
+banner(pkg.version);
+console.log('3. Loading env');
+require('./src/env').load();
+console.log('4. Loading logger');
+const logger = require('./src/lib/logger');
+let config = require('yaml').parse(require('fs').readFileSync('./src/user/config.yml', 'utf8'));
+let log = logger(config);
+console.log('5. Loading Client');
+const Client = require('./src/client');
+console.log('6. Creating Client instance');
+const client = new Client();
+console.log('7. Finalizing setup');
+console.log('DONE REQUIRING');
